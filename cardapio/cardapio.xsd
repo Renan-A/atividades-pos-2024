@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:c="http://cardapiointegrado.org"
+        targetNamespace="http://cardapiointegrado.org"
+        elementFormDefault="qualified">
+
+    <!-- Elementos Globais -->
+    <element name="nome" type="string"/>
+    <element name="descricao" type="string"/>
+    <element name="calorias" type="integer"/>
+    <element name="tempoPreparo" type="string"/>
+
+    <element name="preco">
+        <simpleType>
+            <restriction base="decimal">
+                <totalDigits value="8"/>
+                <fractionDigits value="2"/>
+                <minInclusive value="0.00"/>
+            </restriction>
+        </simpleType>
+    </element>
+
+    <!-- Ingredientes (Localmente Contidos no Prato) -->
+    <element name="ingrediente" type="string"/>
+
+    <!-- Elemento Principal: Cardápio -->
+    <element name="cardapio">
+        <complexType>
+            <sequence>
+                <element name="prato" minOccurs="1" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element ref="c:nome"/>
+                            <element ref="c:descricao"/>
+                            <element name="ingredientes">
+                                <complexType>
+                                    <sequence>
+                                        <element ref="c:ingrediente" minOccurs="1" maxOccurs="unbounded"/>
+                                    </sequence>
+                                </complexType>
+                            </element>
+                            <element ref="c:preco"/>
+                            <element ref="c:calorias"/>
+                            <element ref="c:tempoPreparo"/>
+                        </sequence>
+                        <attribute name="id" type="integer" use="required"/>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+
+</schema>

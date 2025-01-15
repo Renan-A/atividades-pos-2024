@@ -1,0 +1,51 @@
+{
+    "cardapio": {
+      "pratos": [
+        {
+          "id": 1,
+          "nome": "Omelete com Queijo",
+          "descricao": "Omelete de ovos frescos recheado com queijo derretido.",
+          "ingredientes": ["Ovo", "Queijo", "Sal"],
+          "preco": 8.90,
+          "calorias": 320,
+          "tempoPreparo": "10 minutos"
+        },
+        {
+          "id": 2,
+          "nome": "Panqueca de Carne",
+          "descricao": "Panquecas recheadas com carne moída e molho especial.",
+          "ingredientes": ["Farinha de trigo", "Carne moída", "Molho de tomate", "Queijo ralado"],
+          "preco": 14.50,
+          "calorias": 450,
+          "tempoPreparo": "20 minutos"
+        },
+        {
+          "id": 3,
+          "nome": "Frango Grelhado com Legumes",
+          "descricao": "Peito de frango grelhado acompanhado de legumes ao vapor.",
+          "ingredientes": ["Frango", "Brócolis", "Cenoura", "Batata-doce"],
+          "preco": 22.90,
+          "calorias": 400,
+          "tempoPreparo": "25 minutos"
+        },
+        {
+          "id": 4,
+          "nome": "Pizza de Calabresa",
+          "descricao": "Massa crocante com calabresa, cebola e mussarela.",
+          "ingredientes": ["Massa de pizza", "Calabresa", "Mussarela", "Cebola"],
+          "preco": 35.00,
+          "calorias": 750,
+          "tempoPreparo": "30 minutos"
+        },
+        {
+          "id": 5,
+          "nome": "Crepioca de Frango",
+          "descricao": "Crepioca saudável recheada com frango desfiado e temperos.",
+          "ingredientes": ["Tapioca", "Ovo", "Frango desfiado", "Tempero verde"],
+          "preco": 12.00,
+          "calorias": 350,
+          "tempoPreparo": "15 minutos"
+        }
+      ]
+    }
+  }  

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imobiliaria xmlns="http://imobiliariaaa.org"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://imobiliariaaa.org imobiliaria.xsd">
+
+    <imovel>
+        <descricao>Apartamento moderno e elegante em área central</descricao>
+        <proprietario>
+            <nome>Luiz Pereira</nome>
+            <telefone>+5511998776543</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Acácias</rua>
+            <bairro>Centro</bairro>
+            <cidade>São Paulo</cidade>
+            <numero>102</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>95.0</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 850,000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa ampla com piscina e garagem para 2 carros</descricao>
+        <proprietario>
+            <nome>Patricia Souza</nome>
+            <telefone>+5511987654322</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Paulista</rua>
+            <bairro>Vila Mariana</bairro>
+            <cidade>São Paulo</cidade>
+            <numero>450</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>200.0</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 1,500,000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Kitnet charmosa para alugar no centro da cidade</descricao>
+        <proprietario>
+            <nome>Mariana Costa</nome>
+        </proprietario>
+        <endereco>
+            <rua>Rua dos Estudantes</rua>
+            <bairro>Centro</bairro>
+            <cidade>Rio de Janeiro</cidade>
+            <!-- Sem número -->
+        </endereco>
+        <caracteristicas>
+            <tamanho>35.0</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 350,000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Apartamento de luxo com vista panorâmica para o mar</descricao>
+        <proprietario>
+            <nome>Roberto Lima</nome>
+            <telefone>+5511987654321</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua do Sol</rua>
+            <bairro>Praia Azul</bairro>
+            <cidade>Florianópolis</cidade>
+            <numero>899</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>250.5</tamanho>
+            <numQuartos>5</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 4,200,000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Chalé aconchegante na montanha, ideal para retiro</descricao>
+        <proprietario>
+            <nome>Joana Martins</nome>
+            <telefone>+5511945678901</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Estrada do Pico</rua>
+            <bairro>Serra Alta</bairro>
+            <cidade>Campos do Jordão</cidade>
+            <numero>78</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>140.0</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 1,100,000</valor>
+    </imovel>
+
+</imobiliaria>

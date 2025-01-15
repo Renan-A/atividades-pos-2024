@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardapio xmlns="http://meucardapio.org"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://meucardapio.org cardapio.xsd">
+
+    <prato id="1">
+        <nome>Omelete com Queijo</nome>
+        <descricao>Omelete de ovos frescos recheado com queijo derretido.</descricao>
+        <ingredientes>
+            <ingrediente>Ovo</ingrediente>
+            <ingrediente>Queijo</ingrediente>
+            <ingrediente>Sal</ingrediente>
+        </ingredientes>
+        <preco>8.90</preco>
+        <calorias>320</calorias>
+        <tempoPreparo>10 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="2">
+        <nome>Panqueca de Carne</nome>
+        <descricao>Panquecas recheadas com carne moída e molho especial.</descricao>
+        <ingredientes>
+            <ingrediente>Farinha de trigo</ingrediente>
+            <ingrediente>Carne moída</ingrediente>
+            <ingrediente>Molho de tomate</ingrediente>
+            <ingrediente>Queijo ralado</ingrediente>
+        </ingredientes>
+        <preco>14.50</preco>
+        <calorias>450</calorias>
+        <tempoPreparo>20 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="3">
+        <nome>Frango Grelhado com Legumes</nome>
+        <descricao>Peito de frango grelhado acompanhado de legumes ao vapor.</descricao>
+        <ingredientes>
+            <ingrediente>Frango</ingrediente>
+            <ingrediente>Brócolis</ingrediente>
+            <ingrediente>Cenoura</ingrediente>
+            <ingrediente>Batata-doce</ingrediente>
+        </ingredientes>
+        <preco>22.90</preco>
+        <calorias>400</calorias>
+        <tempoPreparo>25 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="4">
+        <nome>Pizza de Calabresa</nome>
+        <descricao>Massa crocante com calabresa, cebola e mussarela.</descricao>
+        <ingredientes>
+            <ingrediente>Massa de pizza</ingrediente>
+            <ingrediente>Calabresa</ingrediente>
+            <ingrediente>Mussarela</ingrediente>
+            <ingrediente>Cebola</ingrediente>
+        </ingredientes>
+        <preco>35.00</preco>
+        <calorias>750</calorias>
+        <tempoPreparo>30 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="5">
+        <nome>Crepioca de Frango</nome>
+        <descricao>Crepioca saudável recheada com frango desfiado e temperos.</descricao>
+        <ingredientes>
+            <ingrediente>Tapioca</ingrediente>
+            <ingrediente>Ovo</ingrediente>
+            <ingrediente>Frango desfiado</ingrediente>
+            <ingrediente>Tempero verde</ingrediente>
+        </ingredientes>
+        <preco>12.00</preco>
+        <calorias>350</calorias>
+        <tempoPreparo>15 minutos</tempoPreparo>
+    </prato>
+
+</cardapio>

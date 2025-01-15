@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:p="http://imobiliaria.org"
+        targetNamespace="http://imobiliaria.org"
+        elementFormDefault="qualified">
+
+    <!-- Elementos Gerais -->
+    <element name="nome" type="string"/>
+    <element name="telefone" type="string"/>
+
+    <!-- Elemento Proprietário -->
+    <element name="proprietario">
+        <complexType>
+            <sequence>
+                <element ref="p:nome"/>
+                <choice minOccurs="0" maxOccurs="unbounded">
+                    <element ref="p:telefone"/>
+                </choice>
+            </sequence>
+        </complexType>
+    </element>
+
+    <!-- Elemento Endereço -->
+    <element name="rua" type="string"/>
+    <element name="bairro" type="string"/>
+    <element name="cidade" type="string"/>
+    <element name="numero" type="integer"/>
+
+    <element name="endereco">
+        <complexType>
+            <sequence>
+                <element ref="p:rua"/>
+                <element ref="p:bairro"/>
+                <element ref="p:cidade"/>
+                <element ref="p:numero" minOccurs="0"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <!-- Elemento Características -->
+    <element name="tamanho" type="decimal"/>
+    <element name="numQuartos" type="integer"/>
+    <element name="numBanheiros" type="integer"/>
+
+    <element name="caracteristicas">
+        <complexType>
+            <sequence>
+                <element ref="p:tamanho"/>
+                <element ref="p:numQuartos"/>
+                <element ref="p:numBanheiros"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <!-- Elemento Descrição e Valor -->
+    <element name="descricao" type="string"/>
+    <element name="valor">
+        <simpleType>
+            <restriction base="decimal">
+                <fractionDigits value="2"/>
+            </restriction>
+        </simpleType>
+    </element>
+
+    <!-- Elemento Imóvel -->
+    <element name="imovel">
+        <complexType>
+            <sequence>
+                <element ref="p:descricao"/>
+                <element ref="p:proprietario"/>
+                <element ref="p:endereco"/>
+                <element ref="p:caracteristicas"/>
+                <element ref="p:valor"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <!-- Elemento Imobiliária -->
+    <element name="imobiliaria">
+        <complexType>
+            <sequence>
+                <element ref="p:imovel" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+</schema>

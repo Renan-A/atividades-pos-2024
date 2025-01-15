@@ -1,0 +1,101 @@
+{
+    "imobiliaria": {
+      "imovel": [
+        {
+          "descricao": "Apartamento moderno e elegante em área central",
+          "proprietario": {
+            "nome": "Luiz Pereira",
+            "telefone": "+5511998776543"
+          },
+          "endereco": {
+            "rua": "Rua das Acácias",
+            "bairro": "Centro",
+            "cidade": "São Paulo",
+            "numero": 102
+          },
+          "caracteristicas": {
+            "tamanho": 95.0,
+            "numQuartos": 3,
+            "numBanheiros": 2
+          },
+          "valor": "R$ 850,000"
+        },
+        {
+          "descricao": "Casa ampla com piscina e garagem para 2 carros",
+          "proprietario": {
+            "nome": "Patricia Souza",
+            "telefone": "+5511987654322"
+          },
+          "endereco": {
+            "rua": "Avenida Paulista",
+            "bairro": "Vila Mariana",
+            "cidade": "São Paulo",
+            "numero": 450
+          },
+          "caracteristicas": {
+            "tamanho": 200.0,
+            "numQuartos": 4,
+            "numBanheiros": 3
+          },
+          "valor": "R$ 1,500,000"
+        },
+        {
+          "descricao": "Kitnet charmosa para alugar no centro da cidade",
+          "proprietario": {
+            "nome": "Mariana Costa"
+          },
+          "endereco": {
+            "rua": "Rua dos Estudantes",
+            "bairro": "Centro",
+            "cidade": "Rio de Janeiro",
+            "numero": null
+          },
+          "caracteristicas": {
+            "tamanho": 35.0,
+            "numQuartos": 1,
+            "numBanheiros": 1
+          },
+          "valor": "R$ 350,000"
+        },
+        {
+          "descricao": "Apartamento de luxo com vista panorâmica para o mar",
+          "proprietario": {
+            "nome": "Roberto Lima",
+            "telefone": "+5511987654321"
+          },
+          "endereco": {
+            "rua": "Rua do Sol",
+            "bairro": "Praia Azul",
+            "cidade": "Florianópolis",
+            "numero": 899
+          },
+          "caracteristicas": {
+            "tamanho": 250.5,
+            "numQuartos": 5,
+            "numBanheiros": 4
+          },
+          "valor": "R$ 4,200,000"
+        },
+        {
+          "descricao": "Chalé aconchegante na montanha, ideal para retiro",
+          "proprietario": {
+            "nome": "Joana Martins",
+            "telefone": "+5511945678901"
+          },
+          "endereco": {
+            "rua": "Estrada do Pico",
+            "bairro": "Serra Alta",
+            "cidade": "Campos do Jordão",
+            "numero": 78
+          },
+          "caracteristicas": {
+            "tamanho": 140.0,
+            "numQuartos": 3,
+            "numBanheiros": 2
+          },
+          "valor": "R$ 1,100,000"
+        }
+      ]
+    }
+  }
+  

@@ -1,14 +1,12 @@
 from xml.dom.minidom import parse
 import os
 
-# Função para carregar o XML dos imóveis
 def carregar_imobiliaria(imobiliaria_xml):
     dom = parse(imobiliaria_xml)
     imobiliaria = dom.documentElement
     return imobiliaria.getElementsByTagName("imovel")
 
 
-# Função para exibir a lista de imóveis
 def listar_imoveis(imoveis):
     print("\n" + "=" * 10 + " Lista de Imóveis " + "=" * 10)
     for imovel in imoveis:
@@ -17,7 +15,6 @@ def listar_imoveis(imoveis):
         print(f"Descrição: {descricao}, Valor: {valor}")
     print("=" * 30)
 
-# Função para exibir detalhes de um imóvel
 def exibir_detalhes_imovel(imoveis, descricao_busca):
     for imovel in imoveis:
         descricao = imovel.getElementsByTagName("descricao")[0].firstChild.nodeValue
@@ -34,7 +31,6 @@ def exibir_detalhes_imovel(imoveis, descricao_busca):
             return
     print("Imóvel não encontrado!")
 
-# Função para exibir o menu principal
 def exibir_menu_principal():
     print("\n" + "=" * 30)
     print("Bem-vindo à Imobiliária!")
@@ -43,7 +39,6 @@ def exibir_menu_principal():
     print("3. Sair")
     print("=" * 30)
 
-# Função principal para executar o programa
 def executar_imobiliaria():
     current_dir = os.path.dirname(os.path.abspath(__file__))
     imobiliaria_xml_path = os.path.join(current_dir, "imobiliaria.xml")

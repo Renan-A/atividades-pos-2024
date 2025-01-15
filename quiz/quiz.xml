@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz versao="1.2" xmlns="http://quiz.org">
+  <disciplina>Programação Orientada a Serviços</disciplina>
+  <professor>
+    <nome>Diego Cirilo</nome>
+    <matrícula>1935729</matrícula>
+  </professor>
+  <turma>INFOWEB 2021 4V</turma>
+  <data>16/08/2024</data>
+  <questões>
+    <questão id="1">
+      <enunciado>Quantos elementos raiz um xml pode ter?</enunciado>
+      <pontuação>20</pontuação>
+      <alternativas>
+        <alternativa correta="sim">Apenas um</alternativa>
+        <alternativa correta="nao">Um ou mais</alternativa>
+        <alternativa correto="nao">Zero ou um</alternativa>
+        <alternativa correto="nao">Zero ou mais</alternativa>
+      </alternativas>
+    </questão>
+    <questão id="2">
+      <enunciado>DTD é a sigla para:</enunciado>
+      <pontuação>20</pontuação>
+      <alternativas>
+        <alternativa correta="nao">Dicloro Tricloroetano Difenil</alternativa>
+        <alternativa correta="nao">Dinamic Type Document</alternativa>
+        <alternativa correta="sim">Document Type Definition</alternativa>
+        <alternativa correta="nao">Documentaion Type Definition</alternativa>
+      </alternativas>
+    </questão>
+    <questão id="3">
+      <enunciado>Qual das opções não é um tipo de dado do DTD?</enunciado>
+      <pontuação>20</pontuação>
+      <alternativas>
+        <alternativa correto="nao">PCDATA</alternativa>
+        <alternativa correto="nao">CDATA</alternativa>
+        <alternativa correto="sim">INTDATA</alternativa>
+        <alternativa correto="nao">EMPTY</alternativa>
+      </alternativas>
+    </questão>
+    <questão id="4">
+      <enunciado>Qual das opções não é um tipo de elemento do XML?</enunciado>
+      <pontuação>20</pontuação>
+      <alternativas>
+        <alternativa correto="nao">Composto</alternativa>
+        <alternativa correto="sim">Data</alternativa>
+        <alternativa correto="nao">Texto</alternativa>
+        <alternativa correto="nao">Misto</alternativa>
+      </alternativas>
+    </questão>
+    <questão id="5">
+      <enunciado>Qual desses é a entidade para o E Comercial?</enunciado>
+      <pontuação>20</pontuação>
+      <alternativas>
+        <alternativa correto="nao">nbsp</alternativa>
+        <alternativa correto="sim">amp</alternativa>
+        <alternativa correto="nao">notin</alternativa>
+        <alternativa correto="nao">empty</alternativa>
+      </alternativas>
+    </questão>
+  </questões>
+</quiz>

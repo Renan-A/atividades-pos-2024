@@ -52,7 +52,6 @@
             <rua>Rua dos Estudantes</rua>
             <bairro>Centro</bairro>
             <cidade>Rio de Janeiro</cidade>
-            <!-- Sem número -->
         </endereco>
         <caracteristicas>
             <tamanho>35.0</tamanho>

@@ -4,7 +4,6 @@
         targetNamespace="http://cardapiointegrado.org"
         elementFormDefault="qualified">
 
-    <!-- Elementos Globais -->
     <element name="nome" type="string"/>
     <element name="descricao" type="string"/>
     <element name="calorias" type="integer"/>
@@ -20,10 +19,8 @@
         </simpleType>
     </element>
 
-    <!-- Ingredientes (Localmente Contidos no Prato) -->
     <element name="ingrediente" type="string"/>
 
-    <!-- Elemento Principal: Cardápio -->
     <element name="cardapio">
         <complexType>
             <sequence>

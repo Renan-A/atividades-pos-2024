@@ -1,0 +1,130 @@
+{
+    "quiz": {
+      "versao": 1.2,
+      "disciplina": "Programação Orientada a Serviços",
+      "professor": {
+        "nome": "Diego Cirilo",
+        "matrícula": "1935729"
+      },
+      "turma": "INFOWEB 2021 4V",
+      "data": "16/08/2024",
+      "questões": [
+        {
+          "id": 1,
+          "enunciado": "Quantos elementos raiz um xml pode ter?",
+          "pontuação": "20",
+          "alternativas": [
+            {
+              "texto": "Apenas um",
+              "correta": "sim"
+            },
+            {
+              "texto": "Um ou mais",
+              "correta": "nao"
+            },
+            {
+              "texto": "Zero ou um",
+              "correta": "nao"
+            },
+            {
+              "texto": "Zero ou mais",
+              "correta": "nao"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "enunciado": "DTD é a sigla para:",
+          "pontuação": "20",
+          "alternativas": [
+            {
+              "texto": "Dicloro Tricloroetano Difenil",
+              "correta": "nao"
+            },
+            {
+              "texto": "Dinamic Type Document",
+              "correta": "nao"
+            },
+            {
+              "texto": "Document Type Definition",
+              "correta": "sim"
+            },
+            {
+              "texto": "Documentaion Type Definition",
+              "correta": "nao"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "enunciado": "Qual das opções não é um tipo de dado do DTD?",
+          "pontuação": "20",
+          "alternativas": [
+            {
+              "texto": "PCDATA",
+              "correta": "nao"
+            },
+            {
+              "texto": "CDATA",
+              "correta": "nao"
+            },
+            {
+              "texto": "INTDATA",
+              "correta": "sim"
+            },
+            {
+              "texto": "EMPTY",
+              "correta": "nao"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "enunciado": "Qual das opções não é um tipo de elemento do XML?",
+          "pontuação": "20",
+          "alternativas": [
+            {
+              "texto": "Composto",
+              "correta": "nao"
+            },
+            {
+              "texto": "Data",
+              "correta": "sim"
+            },
+            {
+              "texto": "Texto",
+              "correta": "nao"
+            },
+            {
+              "texto": "Misto",
+              "correta": "nao"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "enunciado": "Qual desses é a entidade para o E Comercial?",
+          "pontuação": "20",
+          "alternativas": [
+            {
+              "texto": "nbsp",
+              "correta": "nao"
+            },
+            {
+              "texto": "amp",
+              "correta": "sim"
+            },
+            {
+              "texto": "notin",
+              "correta": "nao"
+            },
+            {
+              "texto": "empty",
+              "correta": "nao"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

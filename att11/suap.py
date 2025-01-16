@@ -8,19 +8,16 @@ API_URL = "https://suap.ifrn.edu.br/api/"
 KEYS_FILE = "keys.json"
 
 def load_credentials():
-    """Carrega as credenciais salvas no arquivo JSON"""
     if os.path.exists(KEYS_FILE):
         with open(KEYS_FILE, 'r') as file:
             return json.load(file)
     return None
 
 def save_credentials(credentials):
-    """Salva as credenciais no arquivo JSON"""
     with open(KEYS_FILE, 'w') as file:
         json.dump(credentials, file)
 
 def login():
-    """Realiza o login e salva as credenciais"""
     user = input("Matrícula: ")
     password = getpass("Senha: ")
     data = {"username": user, "password": password}
@@ -36,15 +33,12 @@ def login():
         exit()
 
 def get_token(credentials):
-    """Retorna o token de autenticação"""
     return credentials['token']
 
 def get_headers(token):
-    """Retorna os cabeçalhos de autenticação para as requisições"""
     return {"Authorization": f'Bearer {token}'}
 
 def get_boletim(ano_letivo, periodo_letivo, headers):
-    """Obtém o boletim acadêmico do SUAP"""
     url = f"{API_URL}v2/minhas-informacoes/boletim/{ano_letivo}/{periodo_letivo}/"
     response = requests.get(url, headers=headers)
 
@@ -55,7 +49,6 @@ def get_boletim(ano_letivo, periodo_letivo, headers):
         exit()
 
 def tabela_boletim(data):
-    """Exibe o boletim em formato tabular"""
     tabela_boletim = []
     for disciplina in data:
         linha = [
@@ -72,7 +65,6 @@ def tabela_boletim(data):
     print("\n" + tabulate(tabela_boletim, headers=cabecalhos, tablefmt="grid"))
 
 def renew_token(credentials):
-    """Renova o token de autenticação"""
     user = credentials['username']
     password = credentials['password']
     data = {"username": user, "password": password}
@@ -88,7 +80,6 @@ def renew_token(credentials):
         exit()
 
 def main():
-    """Função principal de interação com o usuário"""
     credentials = load_credentials()
     if not credentials:
         credentials = login()

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex Revamp</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Pokédex Explorer</h1>
+    </header>
+
+    <main class="container">
+        <section class="pokemon-display">
+            <div class="pokemon-images">
+                <img id="front-sprite" src="" alt="Front Sprite" class="pokemon-sprite">
+                <img id="back-sprite" src="" alt="Back Sprite" class="pokemon-sprite">
+            </div>
+            <div class="pokemon-details">
+                <h2 id="pokemon-name">Nome do Pokémon</h2>
+                <p><strong>Nº na National Dex:</strong> <span id="pokemon-number">---</span></p>
+                <p><strong>Tipo:</strong> <span id="pokemon-type" class="type-badge">---</span></p>
+                <p><strong>Habilidade:</strong> <span id="pokemon-ability">---</span></p>
+                <p><strong>Média de Status:</strong> <span id="pokemon-average">---</span></p>
+            </div>
+        </section>
+
+        <section class="search-panel">
+            <input type="text" id="name-search" placeholder="Busque pelo nome ou tipo..." class="input">
+            <button class="btn-search" onclick="searchByName()">Buscar</button>
+
+            <input type="number" id="number-search" placeholder="Digite o número do Pokémon" min="1" max="1025" class="input">
+            <button class="btn-search" onclick="searchByNumber()">Pesquisar</button>
+        </section>
+
+        <section class="navigation">
+            <button class="btn-nav" onclick="previousPokemon()">← Anterior</button>
+            <button class="btn-nav" onclick="nextPokemon()">Próximo →</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Pokédex Explorer</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

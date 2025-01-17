@@ -36,37 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-/* Cole este código no final do App.css existente */
-.App {
-  text-align: center;
-  font-family: Arial, sans-serif;
-  margin-top: 20px;
-}
-
-form {
-  margin-bottom: 20px;
-}
-
-input {
-  padding: 10px;
-  font-size: 16px;
-  margin-right: 10px;
-}
-
-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.error {
-  color: red;
-  font-weight: bold;
-}
-
-img {
-  margin: 10px;
-  width: 150px;
-  height: auto;
-}
